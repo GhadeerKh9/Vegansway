@@ -6,12 +6,11 @@ if (query === 'Yes'){alert('Good for you!')
 
 
 
-
 var query = prompt('Wanna check a vegan recipe?')
 
 if(query === 'yes'){
   document.write('<img src="4.jpeg">')
-}else if(query === 'mercedes'){
+}else if(query === 'no'){
   document.write('You must know that it is totally worth it!')
 }else {
   alert('Thank you!')}
