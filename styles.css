@@ -6,7 +6,7 @@ header nav ul li {text-indent: 150px}
 header nav ul li {padding: 40px 10px}
 header nav ul li {text-indent: 150px}
 header nav ul li {padding: 10px 10px}
->>>>>>> 8217f101eba8207e4b57556120ce220b4f5d685a
+
 header nav ul li {font-family: "Lucida Console", "Courier New", monospace;}
 header {background-color: lawngreen}
 main img{display: block;
@@ -22,16 +22,13 @@ main img{display: block;
   main div p {font-family: "Lucida Console", "Courier New", monospace;}
 
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
+footer {background-color: lawngreen}
+footer a {color:  white}
+footer a {font-family: "Lucida Console", "Courier New", monospace;}
+footer a {text-indent: 150px}
+footer a {padding: 20px 500px}
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+footer p {color:  white}
+footer p {font-family: "Lucida Console", "Courier New", monospace;}
+footer p {text-indent: 150px}
+footer p {padding: 20px 400px}
