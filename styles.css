@@ -1,4 +1,5 @@
 header nav ul li {display: inline-block}
+<<<<<<< HEAD
 header nav ul li a {color: white}
 
 
@@ -6,12 +7,20 @@ header nav ul li a {background-color: white; color: black; border: 2px solid gre
 
 header nav ul li {text-indent: 150px}
 header nav ul li {padding: 40px 10px}
+=======
+header nav ul li {text-indent: 150px}
+header nav ul li {padding: 10px 10px}
+>>>>>>> 8217f101eba8207e4b57556120ce220b4f5d685a
 header nav ul li {font-family: "Lucida Console", "Courier New", monospace;}
 header {background-color: lawngreen}
 main img{display: block;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   width: 70%;}
+=======
+  width: 30%;}
+>>>>>>> 8217f101eba8207e4b57556120ce220b4f5d685a
   body {background-color: ivory}
    main section h1 {color:limegreen}
   main section p {color: black}
