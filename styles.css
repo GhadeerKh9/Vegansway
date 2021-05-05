@@ -1,12 +1,16 @@
 header nav ul li {display: inline-block}
-header nav ul li {text-indent: 80px}
+header nav ul li {text-indent: 150px}
 header nav ul li {padding: 10px 10px}
 header nav ul li {font-family: "Lucida Console", "Courier New", monospace;}
 header {background-color: lawngreen}
 main img{display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;}
+  width: 30%;}
   body {background-color: ivory}
    main section h1 {color:limegreen}
-  main section p {color: forestgreen}
+  main section p {color: black}
+  main section p {font-family: "Lucida Console", "Courier New", monospace;}
+  main div p {text-indent: 500px}
+  main div p {color:limegreen}
+  main div p {font-family: "Lucida Console", "Courier New", monospace;}
