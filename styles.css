@@ -15,11 +15,12 @@ main img{display: block;
   width: 30%;}
   body {background-color: ivory}
    main section h1 {color:limegreen}
-  main section p {color: black}
-  main section p {font-family: "Lucida Console", "Courier New", monospace;}
-  main div p {text-indent: 500px}
-  main div p {color:limegreen}
-  main div p {font-family: "Lucida Console", "Courier New", monospace;}
+  main section a {color: black}
+  main section a {font-family: "Lucida Console", "Courier New", monospace;}
+  main div a {text-indent: 500px}
+  main div a {color:limegreen}
+  main div a {font-family: "Lucida Console", "Courier New", monospace;}
+  main div a {display: inline-block}
 
 
 footer {background-color: lawngreen}
