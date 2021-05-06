@@ -1,10 +1,10 @@
+
 var query = prompt ('Are you vegan?')
 if (query === 'Yes'){alert('Good for you!')
 }else if (query === 'yes'){alert('Good for you!')
 }else if (query ==='No'){alert('You might want to be one!')
 }else if (query ==='no'){alert('You might want to be one!')
 }else {alert('Welcome to vegans world')}
-
 
 
 
@@ -19,6 +19,10 @@ if(query === 'yes'){
 }else if (query === 'No'){
   document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
 }else {alert('Thank you!')}
-  
 
- 
+var ingredient = prompt('What is the most used vegan ingredient?')
+while (ingredient !=='Coconut milk' && ingredient !=='Rice'){ingredient = prompt('Could you try one more time?')}
+
+
+var query = prompt('how many')
+for (i = 0 ; i<query; i=i+1){document.write('<img src="5.jpeg">')}
