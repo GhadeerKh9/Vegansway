@@ -7,7 +7,6 @@ if (query === 'Yes'){alert('Good for you!')
 
 
 
-
 var query = prompt('Wanna check a vegan recipe?')
 
 if(query === 'yes'){
