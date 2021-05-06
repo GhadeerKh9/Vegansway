@@ -1,4 +1,3 @@
-
 var query = prompt ('Are you vegan?')
 if (query === 'Yes'){alert('Good for you!')
 }else if (query === 'yes'){alert('Good for you!')
@@ -26,3 +25,4 @@ while (ingredient !=='Coconut milk' && ingredient !=='Rice'){ingredient = prompt
 
 var query = prompt('how many')
 for (i = 0 ; i<query; i=i+1){document.write('<img src="5.jpeg">')}
+
