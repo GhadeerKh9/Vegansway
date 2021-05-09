@@ -4,7 +4,7 @@ function queryAboutyou (){
 
 if (query === 'Yes'){alert('Good for you!')
 }else if (query === 'yes'){alert('Good for you!')
-}else if (query ==='No'){alert('You might want to be one!')
+}else if (query ==='Nclearo'){alert('You might want to be one!')
 }else if (query ==='no'){alert('You might want to be one!')
 }else {alert('Welcome to vegans world')}
 
@@ -19,6 +19,8 @@ if(interest === 'yes' || interest ==='Yes'){
 
 }else if(interest === 'no' || interest ==='No'){
   document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
+
+
 
 
 }else if(query === 'no' || query ==='No'){
