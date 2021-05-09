@@ -21,13 +21,14 @@ if(interest === 'yes' || interest ==='Yes'){
   document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
 }else {alert('Thank you!')}
 
-}
-request()
+
 
 }else if(query === 'no' || query ==='No'){
   document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
 }else {alert('Thank you!')}
 
+}
+request()
 
 
 var ingredient = prompt('What is the most used vegan ingredient?')
