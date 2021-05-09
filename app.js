@@ -1,4 +1,5 @@
 var query = prompt ('Are you vegan?')
+
 function queryAboutyou (){
 
 if (query === 'Yes'){alert('Good for you!')
@@ -15,12 +16,19 @@ function request (){
 
 if(interest === 'yes' || interest ==='Yes'){
   document.write('<a href="https://www.instagram.com/p/CDu7JoVHPVl/?igshid=1k7slp9cbfemj">Vegan Buritos</a>')
+
 }else if(interest === 'no' || interest ==='No'){
   document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
 }else {alert('Thank you!')}
 
 }
 request()
+
+}else if(query === 'no' || query ==='No'){
+  document.write('<h1>' + 'You must know that it is totally worth it!'+'</h1>)')
+}else {alert('Thank you!')}
+
+
 
 var ingredient = prompt('What is the most used vegan ingredient?')
 function type(){
@@ -29,6 +37,7 @@ while (ingredient !=='Coconut milk' && ingredient !=='flour'){ingredient = promp
 type()
 
 var recipesnumber = prompt('How many recipes do you wanna see?')
+
 console.log(recipesnumber)
 var img
 function number(){
@@ -41,5 +50,13 @@ document.write(img)}
 
 }
 number()
+
+
+var img
+for (var i = 0; i < recipesnumber; i++){if(ingredient == 'Coconut milk'){img = '<"4.jpeg">'}
+else if (ingredient == 'flour'){img = '<"7.jpeg">'}
+}
+
+document. write(img)
 
 
